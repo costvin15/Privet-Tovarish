@@ -1,0 +1,29 @@
+[
+    {
+        "title": "Poção da Vida",
+        "description": "Incrementa 50HP",
+        "action": {
+            "target": "life",
+            "effect": 50
+        },
+        "price": 20
+    },
+    {
+        "title": "Poção do Fortalecimento",
+        "description": "Aumenta em 2x sua força",
+        "action": {
+            "target": "force",
+            "effect": 10
+        },
+        "price": 25
+    },
+    {
+        "title": "Poção Revigorante",
+        "description": "Aumenta em 2x seu poder mágico",
+        "action": {
+            "target": "magic",
+            "effect": 10
+        },
+        "price": 25
+    }
+]

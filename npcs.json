@@ -1,0 +1,140 @@
+[
+    {
+        "map": "views/game/maps/dungeon1/vector.lua",
+        "npcs": [
+            {
+                "id": 1,
+                "name": "Esqueleto",
+                "spritesheet": "sources/images/skeleton-spritesheet.png",
+                "x": 250,
+                "y": 400,
+                "battle": true,
+                "script": [
+
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Elfo Negro",
+                "spritesheet": "sources/images/darkelf.png",
+                "x": 137,
+                "y": 414,
+                "battle": true,
+                "script": [
+
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Orc",
+                "spritesheet": "sources/images/femaleorc.png",
+                "x": 80,
+                "y": 525,
+                "battle": true,
+                "script": [
+
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Esqueleto",
+                "spritesheet": "sources/images/skeleton-spritesheet.png",
+                "x": 247,
+                "y": 633,
+                "battle": true,
+                "script": [
+
+                ]
+            },
+            {
+                "id": 5,
+                "name": "Elfo Negro",
+                "spritesheet": "sources/images/darkelf.png",
+                "x": 371,
+                "y": 765,
+                "battle": true,
+                "script": [
+
+                ]
+            }
+        ]
+    },
+    {
+        "map": "views/game/maps/house1/vector.lua",
+        "npcs": [
+            {
+                "id": 1,
+                "spritesheet": "sources/images/male2.png",
+                "x": 250,
+                "y": 100,
+                "battle": false,
+                "script": [
+                ]
+            },
+            {
+                "id": 2,
+                "spritesheet": "sources/images/female2.png",
+                "x": 150,
+                "y": 100,
+                "battle": false,
+                "script": [
+                ]
+            }
+        ]
+    },
+    {
+        "map": "views/game/maps/1/vector.lua",
+        "npcs": [
+            {
+                "id": 1,
+                "spritesheet": "sources/images/male1.png",
+                "x": 1000,
+                "y": 500,
+                "battle": false,
+                "script": [
+                    {
+                        "x": 1200,
+                        "y": 500
+                    },
+                    {
+                        "x": 1000,
+                        "y": 500
+                    },
+                    {
+                        "x": 1000,
+                        "y": 700
+                    },
+                    {
+                        "x": 1000,
+                        "y": 500
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "spritesheet": "sources/images/female1.png",
+                "x": 1200,
+                "y": 500,
+                "battle": false,
+                "script": [
+                    {
+                        "x": 1000,
+                        "y": 1000
+                    },
+                    {
+                        "x": 1200,
+                        "y": 500
+                    },
+                    {
+                        "x": 1200,
+                        "y": 300
+                    },
+                    {
+                        "x": 1200,
+                        "y": 500
+                    }
+                ]
+            }
+        ]
+    }
+]
